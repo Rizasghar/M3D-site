@@ -1,0 +1,159 @@
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./Font/Gotham\ Black.otf");
+  src: url("./Font/Gotham\ Bold.otf") format("opentype"),
+    url("./Font/Gotham\ Book.otf") format("opentype"),
+    url("./Font/Gotham\ Italic.otf") format("opentype"),
+    url("./Font/Gotham\ Light.otf") format("opentype"),
+    url("./Font/Gotham\ Medium.otf") format("opentype"),
+    url("./Font/Gotham\ Regular.otf") format("opentype"),
+    url("./Font/Gotham\ Thin.otf") format("opentype"),
+    url("./Font/Gotham\ Ultra.otf") format("opentype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  /* font: 16px/1.6 "gotham"; */
+  font-family: Gotham;
+}
+button {
+  opacity: 0.9 !important;
+}
+
+
+.quiq-floating-element{
+  margin: 2.6rem 1.5rem !important;
+}
+@media screen and (max-width: 768px) {
+  .quiq-floating-element{
+    margin: 2.6rem 0.5rem !important;
+  }
+  
+}
+
+.maincontactus {
+  padding: 20px;
+  margin-top: 55px;
+  height: auto;
+  min-height:calc(100vh - 130px);;
+  display: flex;
+  justify-content:center ;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+
+}
+.submitbtn:hover{
+  background-color: #0075a6;
+}
+.chatnowbtn{
+  width: 230px;
+  height: 40px;
+  font-weight: 700;
+  color: purple;
+  font-size: 20px;
+  border: 1px solid purple;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.left-contact-section{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: -178px;
+}
+
+
+
+.contactus-img{
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: row;
+  background: #C5D9E2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 45vh;
+  filter: drop-shadow(0px 2px 5px #c5c5c5b9);
+  
+}
+@media (max-width: 600px) {
+
+.freetrail-para{
+
+  width: 100%;
+  text-align: center;
+}
+
+
+
+  .chatnowbtn{
+    width: 250px;
+    height: 40px;
+    color: purple;
+    border: 1px solid purple;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .left-contact-section{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    margin-top: 0px !important;
+    
+  }
+  .contactus-img{
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+  
+  }
+  .maincontactus {
+    padding: 20px;
+    margin-top: 50px !important;
+    height: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .image-hide {
+    display: none;
+  }
+}
+
+.custom-header {
+  background-color: black !important;
+}
+
+@media (min-width: 768px) {
+  .mobile-text-container {
+    display: none !important;
+  }
+}
+

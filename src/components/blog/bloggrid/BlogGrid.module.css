@@ -1,0 +1,14 @@
+
+.blog-card{
+  border-radius: 16px;
+  box-shadow: rgba(0,0,0,.1) 0px 0px 20px 1px;
+  transition-duration: 5s;
+
+}
+.blog-card:hover{
+  /* transform: scale(1.1); */
+  transition-duration: 5s;
+  box-shadow: rgba(0, 0, 0, .1) 0px 0px 28px 19px;
+  cursor: pointer;
+}
+

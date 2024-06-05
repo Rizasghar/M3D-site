@@ -1,0 +1,38 @@
+.BlogHome {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  
+}
+.textDark {
+  color: #152035;
+  text-align: center;
+}
+
+.banner {
+  width: 80%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0 2.5em 0;
+}
+
+.h1 {
+  font-size: 2.5em !important;
+}
+
+.logo {
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    width: 100%;
+    font-size: 30px;
+  }
+  .h1 {
+    font-size: 2.5rem !important;
+  }
+}

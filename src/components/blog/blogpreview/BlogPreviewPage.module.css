@@ -1,0 +1,98 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  min-height: 1000px;
+  align-items: center;
+  padding: 1em;
+  margin-top: 1em;
+}
+.Stats {
+  color: rgb(0, 0, 0);
+}
+.Stats p {
+  color: rgb(0, 0, 0);
+}
+
+.Heading {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: rgb(0, 0, 0);
+}
+.related {
+  margin-top: 3em;
+}
+.Story {
+  font-size: 1.1em;
+  color: black;
+}
+@media only screen and (min-width: 800px) {
+  .PreviewContent {
+    padding: 1em 3em;
+  }
+}
+.creds {
+  color: white;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 50%;
+}
+.imageContainer img {
+  width: 100%;
+  height: 60vh;
+  border-radius: 10px;
+  -o-object-fit: cover;
+  object-fit: contain;
+  /* filter: grayscale(100%); */
+  transition: all 0.4s ease-in;
+}
+
+.blogCard:hover .imageContainer img {
+  filter: grayscale(0);
+}
+
+.Button20 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 1rem;
+  color: #000000;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background: transparent;
+  cursor: pointer;
+  left: auto;
+  right: auto;
+  line-height: 1.5;
+  margin-top: 1em;
+  padding: 0.5rem 1rem;
+}
+
+.related-Blogs {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+@media screen and (min-width: 600px) {
+  .related-Blogs {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+.blog-description-img img {
+  height: 50vh !important;
+  width: 100% !important;
+  object-fit: cover !important; /* Ensures the image covers the area without distortion */
+}
+
+@media (max-width: 768px) {
+  .blog-description-img img {
+    height: 20vh; /* Adjust height for smaller screens */
+  }
+}
